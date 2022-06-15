@@ -168,7 +168,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="🕉️ OWNER 🕉️",
-                            url=f"https://t.me/mr_agora"),
+                            url=f"https://t.me/venom_kings"),
                             
                     InlineKeyboardButton(
                             text="💜 EMPIRE 💜",
@@ -177,7 +177,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="💪 TERRITORY 💪",
-                            url=f"https://t.me/team_agora")
+                            url=f"https://t.me/venom_world_op")
                    
                 ]
             ]
