@@ -162,8 +162,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💖 AGORA BOTS 🤙",
-                            url=f"https://t.me/agora_robots")
+                            text="💖 SERVER 🤙",
+                            url=f"https://t.me/agora_ROBOTS")
                ],
                [
                     InlineKeyboardButton(
@@ -171,12 +171,12 @@ async def play(_, message: Message):
                             url=f"https://t.me/venom_kings"),
                             
                     InlineKeyboardButton(
-                            text="💜 EMPIRE 💜",
-                            url=f"https://t.me/agoraempire")
+                            text="💜 SERVER BASE 💜",
+                            url=f"https://t.me/TEAM_AGORA")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 TERRITORY 💪",
+                            text="💪 SUPPORT 💪",
                             url=f"https://t.me/venom_world_op")
                    
                 ]
@@ -215,22 +215,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 AGORA BOTS 🤙",
+                            text="🤙 SERVER 🤙",
                             url=f"https://t.me/agora_robots")
                ],
                [
                     InlineKeyboardButton(
                             text="🕉️ OWNER 🕉️",
-                            url=f"https://t.me/mr_agora"),
+                            url=f"https://t.me/venom_kings"),
                             
                     InlineKeyboardButton(
-                            text="💜 EMPIRE 💜",
-                            url=f"https://t.me/agoraempire")
+                            text="💜 SERVER BASE 💜",
+                            url=f"https://t.me/team_agora")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 TERRITORY 💪",
-                            url=f"https://t.me/team_agora")
+                            text="💪 SUPPORT 💪",
+                            url=f"https://t.me/venom_world_op")
                    
                 ]
             ]
@@ -245,7 +245,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 AGORA BOTS 🤙",
+                            text="🤙 SERVER 🤙",
                             url=f"https://t.me/agorA_ROBOTS")
                ],
                [
@@ -254,13 +254,13 @@ async def play(_, message: Message):
                             url=f"https://t.me/MR_AGORA"),
                             
                     InlineKeyboardButton(
-                            text="💜 EMPIRE 💜",
-                            url=f"https://t.me/agoraEMPIRE")
+                            text="💜 SERVER BASE 💜",
+                            url=f"https://t.me/TEAM_AGORA")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 TERRITORY 💪",
-                            url=f"https://t.me/team_agora")
+                            text="💪 SUPPORT 💪",
+                            url=f"https://t.me/VENOM_WORLD_OP")
                    
                 ]
             ]
@@ -313,7 +313,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 UPDATES 🤙",
+                            text="🤙 SERVER 🤙",
                             url=f"https://t.me/agora_ROBOTS")
                ],
                [
@@ -322,13 +322,13 @@ async def play(_, message: Message):
                             url=f"https://t.me/venom_kings"),
                             
                     InlineKeyboardButton(
-                            text="💜 EMPIRE 💜",
-                            url=f"https://t.me/agoraempire")
+                            text="💜 SERVER BASE 💜",
+                            url=f"https://t.me/team_agora")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 TERRITORY 💪",
-                            url=f"https://t.me/")
+                            text="💪 SUPPORT 💪",
+                            url=f"https://t.me/venom_world_op")
                    
                 ]
             ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****💪 THE SONG IS PLAYING FROM AGORA SERVER , ENJOY WITH @AGORA_ROBOT💫🤟** {}**".format(position),
+            caption="****💪 THE SONG IS PLAYING FROM AGORA SERVER , ENJOY WITH @AGORA_ROBOTS 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**** Song is playing with Agora server enjoy by using @agora_robot`{}`...**".format(
+            caption="**** Song is playing with Agora server enjoy by using @agora_robots `{}`...**".format(
         message.chat.title
         ), )
 
