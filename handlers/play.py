@@ -238,7 +238,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/2add091f8824a47e82c98.jpg"
+            thumb_name = "https://te.legra.ph/file/85f3e593108d2c4351f57.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -313,13 +313,13 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 AGORA BOTS 🤙",
+                            text="🤙 UPDATES 🤙",
                             url=f"https://t.me/agora_ROBOTS")
                ],
                [
                     InlineKeyboardButton(
                             text="🕉️ OWNER 🕉️",
-                            url=f"https://t.me/mr_agora"),
+                            url=f"https://t.me/venom_kings"),
                             
                     InlineKeyboardButton(
                             text="💜 EMPIRE 💜",
@@ -328,7 +328,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="💪 TERRITORY 💪",
-                            url=f"https://t.me/team_agora")
+                            url=f"https://t.me/")
                    
                 ]
             ]
