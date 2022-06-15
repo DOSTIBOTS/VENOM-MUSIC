@@ -10,19 +10,19 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/2add091f8824a47e82c98.jpg",
-        caption=f"""**𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 𝐏𝐋𝐀𝐘𝐄𝐃 𝐈𝐍 𝐕𝐎𝐈𝐂𝐄 𝐂𝐇𝐀𝐓𝐒 𝐎𝐅 𝐆𝐑𝐎𝐔𝐏 , 𝐌𝐀𝐃𝐄 𝐖𝐈𝐓𝐇 𝐋𝐎𝐕𝐄 𝐀𝐍𝐃 𝐇𝐀𝐑𝐃𝐖𝐎𝐑𝐊 𝐁𝐘 [𝐒𝐀𝐑𝐊𝐀𝐑 𝐀𝐆𝐎𝐑𝐀 ](https://t.me/mr_agora)
+        photo=f"https://te.legra.ph/file/85f3e593108d2c4351f57.jpg",
+        caption=f"""**𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 𝐏𝐋𝐀𝐘𝐄𝐃 𝐈𝐍 𝐕𝐎𝐈𝐂𝐄 𝐂𝐇𝐀𝐓𝐒 𝐎𝐅 𝐆𝐑𝐎𝐔𝐏 , 𝐌𝐀𝐃𝐄 𝐖𝐈𝐓𝐇 𝐋𝐎𝐕𝐄 𝐀𝐍𝐃 𝐇𝐀𝐑𝐃𝐖𝐎𝐑𝐊 𝐁𝐘 [𝐀𝐆𝐎𝐑𝐀 𝐑𝐎𝐁𝐎𝐓𝐒](https://t.me/mr_agora)
 
-𝐂𝐑𝐄𝐀𝐓𝐎𝐑 :- [𝐒𝐀𝐑𝐊𝐀𝐑 𝐀𝐆𝐎𝐑𝐀](https://t.me/Mr_Agora)
-𝐓𝐄𝐑𝐑𝐈𝐓𝐎𝐑𝐘:- [𝐓𝐄𝐀𝐌 𝐀𝐆𝐎𝐑𝐀](https://t.me/team_agora)
-𝐁𝐎𝐓𝐒 𝐄𝐌𝐏𝐈𝐑𝐄 :- [𝐀𝐆𝐎𝐑𝐀 𝐁𝐎𝐓𝐒](https://t.me/AGORa_ROBOTS)
+𝐂𝐑𝐄𝐀𝐓𝐎𝐑 :- [𝐀𝐘𝐔𝐒𝐇](https://t.me/venom_kings)
+𝐒𝐔𝐏𝐏𝐎𝐑𝐓:- [𝐖𝐎𝐑𝐋𝐃](https://t.me/venom_world_op)
+𝐁𝐎𝐓𝐒 𝐒𝐄𝐑𝐕𝐄𝐑 :- [𝐀𝐆𝐎𝐑𝐀 𝐁𝐎𝐓𝐒](https://t.me/agora_robots)
 
- 𝐅𝐈𝐑𝐒𝐓 𝐉𝐎𝐈𝐍 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 [𝐓𝐄𝐀𝐌 𝐀𝐆𝐎𝐑𝐀](t.me/team_agora) 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐄 𝐁𝐎𝐓 𝐀𝐍𝐃 𝐇𝐄𝐑𝐄 𝐈𝐒 𝐓𝐇𝐄 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 𝐎𝐅 [𝐎𝐖𝐍𝐄𝐑](https://t.me/mr_agora)**""",
+ 𝐅𝐈𝐑𝐒𝐓 𝐉𝐎𝐈𝐍 𝐓𝐇𝐈𝐒 [𝐒𝐄𝐑𝐕𝐄𝐑](t.me/team_agora) 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐄 𝐁𝐎𝐓 𝐀𝐍𝐃 𝐇𝐄𝐑𝐄 𝐈𝐒 𝐓𝐇𝐄 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 𝐎𝐅 [𝐎𝐖𝐍𝐄𝐑](https://t.me/venom_kings)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐂𝐋𝐔𝐁 𝐇𝐎𝐔𝐒𝐄 𝐎𝐖𝐍𝐄𝐑", url=f"https://www.clubhouse.com/@mr_agoramahrshi")
+                        "💖 𝐎𝐖𝐍𝐄𝐑 💫", url=f"https://t.me/venom_world_op")
                 ]
                 
            ]
@@ -33,7 +33,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/2add091f8824a47e82c98.jpg",
+        photo=f"https://te.legra.ph/file/85f3e593108d2c4351f57.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
